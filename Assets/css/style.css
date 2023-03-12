@@ -1,6 +1,9 @@
 html{
     margin: 2% 6%;
     background: #E5E5E5;;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .header__bar{
@@ -62,6 +65,7 @@ h2{
 .banner__descricao{
     width: 900px;
     height: 350px;
+    margin: 2% 0%;
     display: flex;
     flex-direction: column;
     align-content: end;    
@@ -73,5 +77,79 @@ h2{
     border: white solid  1px;
     width: 130px;
     height: 40px;
+}
 
+.titles__console{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.title__console{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.button__ver__tudo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2A7AE4;
+    background: transparent;
+    border: none;
+    margin: 0%;
+}
+
+.console__img img{
+    width: 175px;
+    height: auto;
+}
+
+.console__grid{
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.console__box{
+    margin-right: 3%;
+    text-align: center;
+}
+
+.console__produto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+.console__valor{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 1%;
+}
+
+.console__button button{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #2A7AE4;
+    background: transparent;
+    border: none;
+    padding: 0%;
 }
