@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/reset.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
     <title>Gamer</title>
 </head>
+
 <body>
   <header class="header__bar">
-    <img src="Assets/Image/" alt="Logo Alura geek">
-    <input type="text" placeholder="O que você deseja encontrar?">
-    <button><img src="Assets/Image/lupa-icon.png" alt="icone de uma lupa"></button>
-    <button>Login</button>
+    <img src="Assets/Image/Logo.png" alt="Logo Alura geek">
+    <div class="barra__pesquisa">
+      <input type="text" placeholder="O que você deseja encontrar?">
+      <button><img class="img__lupa" src="Assets/Image/lupa-icon.png" alt="icone de uma lupa"></button>
+    </div>
+    <button class="button__login">Login</button>
   </header>
   <main>
     <section >
-      <div class="Banner__ofertas">
-        <h1 class="ofertas__mes">Março promocional</h1>
-        <h2 class="descricao__oferta">Super ofertas do mês de março com produtos de ate 35% de desconto, confira!</h2>
-        <button>Ver produtos</button>
+      <div class="Banner__ofertas" id="container__banner">
+        <div class="banner__descricao">
+          <h1 class="ofertas__mes">Março promocional</h1>
+          <h2 class="descricao__oferta">Super ofertas do mês de março com produtos de ate 35% de desconto, confira!</h2>
+          <button class="button__produtos">Ver produtos</button>
+        </div>
       </div>  
     </section>
     <section class="console">  <!-- grid section de console onde consta produtos, descrição e valores -->
